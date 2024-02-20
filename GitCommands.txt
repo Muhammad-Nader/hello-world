@@ -17,6 +17,8 @@ Untracked - files that are in your working directory, but not added to the repos
 #Git Commit
      /*we are ready move from stage to commit for our repo.*/
  	git commit -m "first release of hello world!"
+Commit the updated files directly, skipping the staging environment:
+	git commit -a -m "New Line Added"
 	git status --short
 /*
 Note: Short status flags are:
@@ -41,7 +43,6 @@ a branch is a new/separate version of the main repository
 */
 	git branch hello-world-images
 	git branch
-<<<<<<< HEAD
 	git checkout hello-world-images
 /*
 checkout 
@@ -54,10 +55,9 @@ git checkout -b emergency-fix
 
 #Git Branch Merge
 Now we merge the current branch (master) with emergency-fix:
+	git checkout master
 	git merge emergency-fix
 
 we can delete emergency-fix, as it is no longer needed:
 	git branch -d emergency-fix
-=======
 	git checkout hello-world-images
->>>>>>> hello-world-images
