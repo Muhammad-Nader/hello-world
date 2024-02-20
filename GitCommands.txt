@@ -86,3 +86,6 @@ Git Merge
 	git status
 Git Pull
 	git pull origin
+-----------------------------------------------
+Git Push to GitHub
+------------------
