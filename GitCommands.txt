@@ -61,3 +61,28 @@ Now we merge the current branch (master) with emergency-fix:
 we can delete emergency-fix, as it is no longer needed:
 	git branch -d emergency-fix
 	git checkout hello-world-images
+------------------------------------
+Git GitHub Getting Started
+---------------------------
+	git remote add origin https://github.com/Muhammad-Nader/hello-world.git
+/*
+git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
+*/
+	git push --set-upstream origin master
+#Git GitHub Edit Code
+#Git Pull from GitHub
+/*
+pull is a combination of 2 different commands:
+fetch
+merge
+*/
+Git Fetch
+	git fetch origin
+	git status
+	git log origin/master
+	git diff origin/master
+Git Merge
+	git merge origin/master
+	git status
+Git Pull
+	git pull origin
