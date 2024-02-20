@@ -20,9 +20,32 @@ Untracked - files that are in your working directory, but not added to the repos
 	git status --short
 /*
 Note: Short status flags are:
-
+----------------------------------------
 ?? - Untracked files
 A - Files added to stage
 M - Modified files
 D - Deleted files
 */
+#Git Commit Log
+-----------------------
+	 git log
+#Git Help
+-------------
+	git command -help    -  See all the available options for the specific command
+	git help --all                  -  See all possible commands
+---------------------------------------------------------------------------------------------------------------------------
+#Git Branch
+-----------------
+/*
+a branch is a new/separate version of the main repository
+*/
+	git branch hello-world-images
+	git branch
+	git checkout hello-world-images
+/*
+checkout 
+is the command used to check out a branch.
+ Moving us from the current branch, to the one specified at the end of the command:
+*/
+#Emergency Branch
+-----------------------------
