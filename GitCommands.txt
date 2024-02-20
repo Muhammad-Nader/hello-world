@@ -49,3 +49,11 @@ is the command used to check out a branch.
 */
 #Emergency Branch
 -----------------------------
+git checkout -b emergency-fix
+
+#Git Branch Merge
+Now we merge the current branch (master) with emergency-fix:
+	git merge emergency-fix
+
+we can delete emergency-fix, as it is no longer needed:
+	git branch -d emergency-fix
