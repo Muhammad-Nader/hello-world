@@ -2,6 +2,27 @@ mkdir-->make directory
 cd --> change directory
 ls --> list files in folder
 ======================
-git --version  --> to know the version of the git
-git init             --> Initialized empty Git repository in C:/Users/mohamed.nader/Desktop/myproject/.git/
-git status       -->
+	git --version  --> to know the version of the git
+	git init             --> Initialized empty Git repository in C:/Users/mohamed.nader/Desktop/myproject/.git/
+	git status       --> check the Git status and see if it is a part of our repo:
+
+/*
+Files in your Git repository folder can be in one of 2 states:
+Tracked - files that Git knows about and are added to the repository
+Untracked - files that are in your working directory, but not added to the repository
+*/
+---------------------------------------------------------------------------------------------------------------------
+#Git Staging Environment
+	git add index.html
+#Git Commit
+     /*we are ready move from stage to commit for our repo.*/
+ 	git commit -m "first release of hello world!"
+	git status --short
+/*
+Note: Short status flags are:
+
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+*/
