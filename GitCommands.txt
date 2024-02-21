@@ -89,3 +89,25 @@ Git Pull
 -----------------------------------------------
 Git Push to GitHub
 ------------------
+	git commit -a -m "Updated index.html. Resized image"
+	git status
+	git push origin
+Git GitHub Branch
+------------------
+
+
+
+Pulling a Branch from GitHub
+	git pull
+	git status
+	git branch
+	git branch -a
+Note: branch -r is for remote branches only.
+	git checkout html-skeleton
+	git pull
+	git branch
+Git Push Branch to GitHub
+	git checkout -b update-readme
+	git add README.md
+	git status
+	git commit -m "Updated readme for GitHub Branches"
